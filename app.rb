@@ -12,5 +12,5 @@ class App < Sinatra::Base
   get "/sing" do
     "And now, the end is near
      And so I face the final curtain..."
-  end  
+  end   
 end
