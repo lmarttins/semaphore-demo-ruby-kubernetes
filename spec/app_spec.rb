@@ -12,9 +12,8 @@ RSpec.describe "My Sinatra Application" do
     expect(last_response.body).to include("smoke it")
   end
 
-  it "sing" do
-    get "/sing"
-    expect(last_response.body).to include("And now, the end is near
-    And so I face the final curtain...")
+  it "hello" do
+    get "/hello"
+    expect(last_response.body).to include("Hello world!")
   end
 end
